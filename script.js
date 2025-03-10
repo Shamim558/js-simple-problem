@@ -66,9 +66,10 @@ function removeDuplicates (numbers) {
     for (let number of numbers) {
        if(!newArr.includes(number)) {
           newArr.push(number);
-          console.log(newArr)
+         //  console.log(newArr)
        }
     }
 }
 const dupResult = removeDuplicates(duplicatArray);
+console.log(dupResult);
 
