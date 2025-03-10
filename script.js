@@ -68,8 +68,8 @@ function removeDuplicates (numbers) {
           newArr.push(number);
          //  console.log(newArr)
        }
+      } return newArr
     }
-}
 const dupResult = removeDuplicates(duplicatArray);
 console.log(dupResult);
 
